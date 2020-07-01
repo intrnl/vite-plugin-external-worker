@@ -1,0 +1,16 @@
+{
+  "name": "vite-plugin-external-worker",
+  "description": "Vite plugin for non-inline web workers",
+  "version": "0.1.0",
+  "author": "intrnl",
+  "license": "MIT",
+  "repository": {
+    "url": "https://github.com/intrnl/vite-plugin-external-worker"
+  },
+  "devDependencies": {
+    "vite": ">=1.0.0-beta.3 <2.0.0"
+  },
+  "peerDependencies": {
+    "vite": "^1.0.0-beta.8"
+  }
+}
