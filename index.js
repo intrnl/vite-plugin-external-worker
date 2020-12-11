@@ -3,6 +3,9 @@ let SUFFIX_SHAREDWORKER = '?sharedworker=external';
 
 function generateRuntimeCode ({ url, type = 'Worker' }) {
   return `
+    if (import.meta.hot) {
+      import.meta.hot.accept();
+    }
     export let url = ${url};
 
     export default function init () {
