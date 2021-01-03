@@ -1,5 +1,8 @@
 # vite-plugin-external-worker
 
+> **Deprecated**  
+> Vite 2.0+ now supports using Rollup plugins directly.
+
 [Vite](https://github.com/vitejs/vite) plugin that allows for non-inline
 bundling of web workers, allowing for code splitting between main entrypoint
 and the worker.
